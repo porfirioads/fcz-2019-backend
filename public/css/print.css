@@ -1,0 +1,19 @@
+@media print {
+    * {
+        font-family: sans-serif;
+    }
+
+    table, td, th {
+        border: 1px solid #ddd !important;
+        text-align: left !important;
+    }
+
+    table {
+        border-collapse: collapse !important;
+        width: 100% !important;
+    }
+
+    th, td {
+        padding: 15px !important;
+    }
+}
